@@ -4,7 +4,8 @@
   "description": "A data processing library in javaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "esinit": "eslint --init",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/NickChuCode/js-data-proc/issues"
   },
-  "homepage": "https://github.com/NickChuCode/js-data-proc#readme"
+  "homepage": "https://github.com/NickChuCode/js-data-proc#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.11.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
 }
