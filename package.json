@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "esinit": "eslint --init",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "mocha --require babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "chai": "^4.2.0",
+    "coffeescript": "^2.3.2",
     "eslint": "^5.11.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",

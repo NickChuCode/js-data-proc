@@ -18,3 +18,17 @@ export function filterApostrophe (oriText) {
 
   return res
 }
+
+// 去除标点符号正则表达式版本
+export function filterApostropheWithReg (oriText) {
+  const res = oriText.toLocaleLowerCase().match(/\w+/g)
+
+  return res
+}
+
+// 完成标点去除和大小写转换后，就可以进行文本数据的分割了
+export function splitText (text) {
+  let res = filterApostrophe(text).toLocaleLowerCase()
+
+  return res.split(' ')
+}
