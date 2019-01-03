@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "esinit": "eslint --init",
-    "test": "mocha"
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/NickChuCode/js-data-proc#readme",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.2.0",
     "eslint": "^5.11.1",
     "eslint-config-standard": "^12.0.0",

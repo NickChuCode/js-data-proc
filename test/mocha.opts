@@ -1,1 +1,6 @@
-src/plygrd/add.test.js
+# 测试框架可用性配置
+#  src/plygrd/add.test.js
+#  src/plygrd/add6.test.js
+
+# 基本数据分析测试
+src/base/*.test.js
